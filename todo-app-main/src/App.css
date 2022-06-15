@@ -1,0 +1,139 @@
+:root {
+    --charlotte: #bafafa; 
+    --malibu: #85f8f8b3;
+    --mosque: #066666;
+    --scr-green: #4CAF50;
+    --mandy: #eb4e68;
+    --li-blue: #cfca3a;
+}
+
+html{
+    /* background-image: linear-gradient(135deg, #d4f2f2, #b0e8e8); */
+    background-color: var(--charlotte);
+}
+  
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+}
+
+.form-title-cointainer {
+    background-color: var(--malibu);
+    border-radius: 2vh;
+    padding: 2vh;
+    display: block;
+}
+
+h1{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    text-align: center;
+    color: var(--mosque);
+    display: block;
+}
+
+.todo-form{
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.input-full-width{
+    display:block;
+    width:100%;
+}
+
+.input-label{
+    margin-top: 2vh;
+    font-size: 22px;
+    color: var(--mosque);
+}
+
+.input-text{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.form-button{
+    margin-top: 4vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 4vh;
+    font-size: 18px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}   
+
+.form-submit-button{
+    background-color: var(--scr-green);
+}
+
+.form-sort-button{
+    background-color: var(--li-blue);
+}
+
+.form-clear-button{
+    background-color: var(--mandy);
+    
+}
+
+.button-container{
+    display: flex; 
+    justify-content:center;
+    width:100%;
+}
+
+@media (max-width: 480px) {
+
+    .main-container {
+        background-color: white;
+        margin: 2vh;
+        border-radius: 2vh;
+        padding: 2vh;
+        box-shadow: 20px 20px 20px 0px var(--malibu);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .main-container {
+        background-color: white;
+        margin: 2vh;
+        border-radius: 2vh;
+        padding: 2vh;
+        box-shadow: 20px 20px 20px 0px var(--malibu);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .main-container {
+        background-color: white;
+        width: 720px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2vh;
+        padding: 2vh;
+        box-shadow: 20px 20px 20px 0px var(--malibu);
+    }
+}
+
+@media (min-width: 1200px)  {
+    .main-container {
+        background-color: white;
+        width: 720px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2vh;
+        padding: 2vh;
+        box-shadow: 20px 20px 20px 0px var(--malibu);
+    }
+}
